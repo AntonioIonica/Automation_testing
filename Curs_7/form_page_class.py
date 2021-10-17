@@ -5,7 +5,7 @@ Form page - Classes
 
 class UpdateFormPage:
     def __init__(self, name, surname, password, email, gender):  # Constructor cu parametri
-          # Atribute de instanta
+        # Atribute de instanta
 
         self._name = name
         self._surname = surname
@@ -13,10 +13,9 @@ class UpdateFormPage:
         self._email = email
         self._gender = gender
 
-    #    def check_fields(self, actual, expected):
     def check_fields(actual, expected):
-        if len(_actual) > 0:
-            if _actual == expected:
+        if len(actual) > 0:
+            if actual == expected:
                 print("Test passed")
             else:
                 print("Test failed")
@@ -29,14 +28,12 @@ class UpdateFormPage:
         else:
             print("Wrong email")
 
-
     def update_form_page(self):
         _name = input("Enter your name: ")
         _surname = input("Enter your surname: ")
         _email = input("Enter your email: ")
         _password = input("Enter your password: ")
         _gender = input("Enter your gender: ")
-
 
         self.check_fields()
 
