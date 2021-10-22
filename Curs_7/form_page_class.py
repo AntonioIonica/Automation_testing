@@ -13,7 +13,7 @@ class UpdateFormPage:
         self._email = email
         self._gender = gender
 
-    def check_fields(actual, expected):
+    def check_fields(self):
         if len(actual) > 0:
             if actual == expected:
                 print("Test passed")
