@@ -1,0 +1,22 @@
+[
+    {
+        "input": "Bucharest",
+        "expected": "Sibiu",
+        "test_status": 20
+    },
+    {
+        "input": "Iasi",
+        "expected": "Cluj",
+        "test_status": 0
+    },
+    {
+        "input": "Craiova",
+        "expected": "Caracal",
+        "test_status": 57
+    },
+    {
+        "input": "Dej",
+        "expected": "Dej",
+        "test_status": 100
+    }
+]
