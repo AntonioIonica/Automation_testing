@@ -13,7 +13,7 @@ class FuzzySearch(TestSearch):
 
 
 if __name__ == '__main__':
-    test_perf = TestPerf
+    test_perf = TestPerf()
     test_perf.execute_test()
     test_sch = TestSearch()
     print(test_sch.gen_report())

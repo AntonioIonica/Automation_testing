@@ -1,10 +1,8 @@
 """
 Test class
 """
-from src.Curs_8.recap_ABC import TestModel
 
-
-class TestSearch(TestModel):
+class TestSearch:
     tst_city = False
     tst_street = False
 
@@ -14,10 +12,13 @@ class TestSearch(TestModel):
 
     def execute_test(self):
         x = input('Please enter an adress! ')
+
         if 'Bucharest' in x:
             self.tst_city = True
+
         if 'Calea Clujului' in x:
             self.tst_street = True
+
         #return self.tst_city, self.tst_street
         print(self.tst_city)
         print(self.tst_street)
@@ -32,9 +33,5 @@ class TestSearch(TestModel):
 
 if __name__ == '__main__':
     test_sch = TestSearch()
-    test_main = TestModel()
     print(test_sch.gen_report())
-    print(test_main.gen_report())
 
-    #test_result = test_sch.execute_test()
-    #print(test_result)

@@ -1,0 +1,18 @@
+{
+  "tc1": {
+    "input": "Bucharest",
+    "expected": "Sibiu"
+  },
+  "tc2": {
+    "input": "Iasi",
+    "expected": "Cluj"
+  },
+  "tc3": {
+    "input": "Craiova",
+    "expected": "Caracal"
+  },
+  "tc4": {
+    "input": "Dej",
+    "expected": "Dej"
+  }
+}
