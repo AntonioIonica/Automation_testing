@@ -22,7 +22,7 @@ def performance_testing(**test_type):
     return inner
 
 
-@performance_testing(name='memory')
+@performance_testing(name='cpu')
 def test_search_performance(expected):
     print(f'Expected value is {expected}')
 

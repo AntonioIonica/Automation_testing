@@ -6,15 +6,18 @@ import json
 
 class Utils:
 
-    def get_input_data(self, test_data):
+    @staticmethod
+    def get_input_data(test_data):
         js_file = open(test_data)
         return json.load(js_file)
 
-    def gen_report(self, my_dict):
+    @staticmethod
+    def gen_report(my_dict):
         with open('report_file1.json', 'w') as out_file:
             json.dump(my_dict, out_file, indent=4)
 
-    def run_test(self, data, generic_test):
+    @staticmethod
+    def run_test(data, generic_test):
         res = []
         for k, v in data.items():
             status = generic_test(data[k]["input"], data[k]["expected"])

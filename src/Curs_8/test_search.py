@@ -3,6 +3,7 @@ Test class
 """
 
 class TestSearch:
+
     tst_city = False
     tst_street = False
 
