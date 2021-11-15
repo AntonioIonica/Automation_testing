@@ -12,7 +12,7 @@ from pages.form_page import FormPage
 service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Curs_10/chromedriver.exe')
 
 class TestFormPage(unittest.TestCase):
-    SUCCES_ALERT = (By.CLASS_NAME, 'alert alert-success')
+    SUCCES_ALERT = (By.XPATH, '/html/body/div/div')
 
     def setUp(self) -> None:
         self.driver = webdriver.Chrome(service=service)
