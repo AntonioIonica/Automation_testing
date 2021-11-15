@@ -1,6 +1,7 @@
 """
-Where the test cases appear
+Where the testcases appear from autocomplete
 """
+
 import time
 import unittest
 from selenium import webdriver
@@ -9,13 +10,12 @@ from pages.autocomplete_page import AutocompletePage
 
 service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Curs_10/chromedriver.exe')
 
-
 class TestAutocomplete(unittest.TestCase):
 
-    def setUp(self) -> None:
+    def setUp(self) -> None: #setUp ruleaza inainte de fiecare testcase, la fiecare!
         self.driver = webdriver.Chrome(service=service)
-        self.driver.maximize_window()
         self.driver.get('https://formy-project.herokuapp.com/autocomplete')
+        self.driver.maximize_window()
 
     # aici vin test caseurile
 
@@ -31,7 +31,7 @@ class TestAutocomplete(unittest.TestCase):
         auto_page.enter_country()
 
 
-    def tearDown(self) -> None:
+    def tearDown(self) -> None: # ruleaza la fiecare metoda, testcase, la final
         time.sleep(5)
         self.driver.quit()
 
