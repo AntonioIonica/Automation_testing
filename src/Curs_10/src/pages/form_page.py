@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
 
 
+
 class FormPage(BasePage):
     HEADER = (By.CSS_SELECTOR, 'body > div > h1')
     F_NAME = (By.ID, 'first-name')
@@ -41,9 +42,11 @@ class FormPage(BasePage):
 
     def enter_date(self):
         time.sleep(1.5)
-        date_pick = self.driver.find_element(*self.DATE_PICKER)
-        date_pick.click()
-        date_pick.send_keys('11/12/1990')
+        date_picker = self.driver.find_element(*self.DATE_PICKER)
+        date_picker.clear()
+        time.sleep(1.5)
+        date_picker.send_keys('07/18/1996')
+        time.sleep(2)
 
     def click_on_submit(self):
         self.driver.find_element(*self.SUBMIT_BTN).click()
