@@ -4,9 +4,7 @@ Drag and drop testing
 
 import unittest
 from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
 import time
 from pages.drag_drop import DragDrop
 
@@ -19,11 +17,12 @@ class TestDragDrop(unittest.TestCase):
         self.driver.maximize_window()
 
     def test_drag_drop(self):
+        time.sleep(3)
         drop = DragDrop(self.driver)
         drop.drag_and_drop()
 
     def tearDown(self) -> None:
-        time.sleep(1.5)
+        time.sleep(3)
         self.driver.quit()
 
 if __name__ == '__main__':

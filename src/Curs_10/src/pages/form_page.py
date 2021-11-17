@@ -5,10 +5,7 @@ form page
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
-
 from pages.base_page import BasePage
-
-
 
 class FormPage(BasePage):
     HEADER = (By.CSS_SELECTOR, 'body > div > h1')

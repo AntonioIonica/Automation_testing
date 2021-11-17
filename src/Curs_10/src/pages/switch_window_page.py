@@ -15,10 +15,13 @@ class SwitchWindow(BasePage):
         new_tab.click()
         time.sleep(1.5)
         handles = self.driver.window_handles
+        print(handles)
         for handle in handles:
             self.driver.switch_to.window(handle)
-            time.sleep(1)
+            time.sleep(2)
             print(f'The current page title is {self.driver.title}')
+        self.driver.switch_to.window(handles[0])
+        time.sleep(2)
 
     def click_on_alert(self):
         alert_button = self.driver.find_element(*self.ALERT_BTN)

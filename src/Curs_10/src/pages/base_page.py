@@ -1,5 +1,5 @@
 """
-driver
+Driver with implicitly wait: 30 seconds
 """
 
 class BasePage:
