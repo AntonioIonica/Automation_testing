@@ -5,7 +5,7 @@ TestSuite run
 import unittest
 import HtmlTestRunner
 import os
-from tests import test_autocomplete_page, test_form_page, test_home_page
+from tests import test_autocomplete_page, test_form_page, test_home_page, test_switch_window_page, test_page_scroll
 
 direct = os.getcwd()
 
@@ -16,7 +16,9 @@ class MyTestSuite(unittest.TestCase):
         smoke_test.addTests([
             unittest.defaultTestLoader.loadTestsFromTestCase(test_autocomplete_page.TestAutocomplete),
             unittest.defaultTestLoader.loadTestsFromTestCase(test_form_page.TestFormPage),
-            unittest.defaultTestLoader.loadTestsFromTestCase(test_home_page.TestHomePage)
+            unittest.defaultTestLoader.loadTestsFromTestCase(test_home_page.TestHomePage),
+            unittest.defaultTestLoader.loadTestsFromTestCase(test_switch_window_page.TestSwitchWindow),
+            unittest.defaultTestLoader.loadTestsFromTestCase(test_page_scroll.TestPageScroll)
         ])
 
         outfile = open(direct + 'SmokeTest.html', 'w')

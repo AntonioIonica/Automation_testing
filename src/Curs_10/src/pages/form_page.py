@@ -4,6 +4,8 @@ form page
 
 import time
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
+
 from pages.base_page import BasePage
 
 
@@ -13,6 +15,7 @@ class FormPage(BasePage):
     F_NAME = (By.ID, 'first-name')
     L_NAME = (By.ID, 'last-name')
     JOB_TITLE = (By.ID, 'job-title')
+    RADIO_BUTTON_1 = (By.ID, 'radio-button-1')
     RADIO_BUTTON_3 = (By.ID, 'radio-button-3')
     SEX_BUTTON_MALE = (By.ID, 'checkbox-1')
     SELECT_MENU = (By.ID, 'select-menu')
@@ -30,15 +33,31 @@ class FormPage(BasePage):
         self.driver.find_element(*self.JOB_TITLE).send_keys('Engineer')
 
     def click_on_education_junior(self):
-        self.driver.find_element(*self.RADIO_BUTTON_3).click()
+        button1 = self.driver.find_element(*self.RADIO_BUTTON_1)
+        button_state = button1.is_selected()
+        print(f'HighSchool button state is {button_state}')
+        time.sleep(1.5)
+        button1.click()
+        button_state = button1.is_selected()
+        print(f'HighSchool button state is {button_state}')
+        time.sleep(1.5)
+        button3 = self.driver.find_element(*self.RADIO_BUTTON_3)
+        button3.click()
+        button3_state = button3.is_selected()
+        print(f'GradSchool button state is {button3_state}')
 
     def click_on_sexual_identification(self):
         self.driver.find_element(*self.SEX_BUTTON_MALE).click()
 
     def click_on_experience(self):
-        self.driver.find_element(*self.SELECT_MENU).click()
-        time.sleep(1.5)
-        self.driver.find_element(*self.EXPERIENCE_0).click()
+        element = self.driver.find_element(*self.SELECT_MENU)
+        drp = Select(element)
+        drp.select_by_index(1)
+
+        all_options = drp.options[1:]
+        for option in all_options:
+            print(option.text)
+
 
     def enter_date(self):
         time.sleep(1.5)
