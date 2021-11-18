@@ -19,17 +19,48 @@ class TestAutocomplete(unittest.TestCase):
 
     # aici vin test caseurile
 
-    def test_address_and_street_1(self):
+    def test_address_and_title(self):
         auto_page = AutocompletePage(self.driver)
         self.assertEqual(auto_page.title_page(), 'Formy')
         auto_page.enter_adr()
-        auto_page.enter_str_1()
-        auto_page.enter_str_2()
-        auto_page.enter_city()
-        auto_page.enter_state()
-        auto_page.enter_zip()
-        auto_page.enter_country()
+        time.sleep(1.5)
+        self.driver.close()
 
+    def test_street_1(self):
+        auto_page = AutocompletePage(self.driver)
+        auto_page.enter_str_1()
+        time.sleep(1.5)
+        self.driver.close()
+
+    def test_street_2(self):
+        auto_page = AutocompletePage(self.driver)
+        auto_page.enter_str_2()
+        time.sleep(1.5)
+        self.driver.close()
+
+    def test_city(self):
+        auto_page = AutocompletePage(self.driver)
+        auto_page.enter_city()
+        time.sleep(1.5)
+        self.driver.close()
+
+    def test_state(self):
+        auto_page = AutocompletePage(self.driver)
+        auto_page.enter_state()
+        time.sleep(1.5)
+        self.driver.close()
+
+    def test_zip(self):
+        auto_page = AutocompletePage(self.driver)
+        auto_page.enter_zip()
+        time.sleep(1.5)
+        self.driver.close()
+
+    def test_country(self):
+        auto_page = AutocompletePage(self.driver)
+        auto_page.enter_country()
+        time.sleep(1.5)
+        self.driver.close()
 
     def tearDown(self) -> None: # ruleaza la fiecare metoda, testcase, la final
         time.sleep(5)

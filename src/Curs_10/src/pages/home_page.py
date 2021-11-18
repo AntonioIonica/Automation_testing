@@ -27,83 +27,83 @@ class HomePage(BasePage):
     def click_on_autocomplete_btn(self):
         self.driver.find_element(*self.AUTOCOMPLETE_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Autocomplete!')
 
     def click_on_buttons_btn(self):
         self.driver.find_element(*self.BUTTONS_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Buttons!')
 
     def click_on_checkbox_btn(self):
         self.driver.find_element(*self.CHECKBOX_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Checkbox!')
 
     def click_on_datepicker_btn(self):
         self.driver.find_element(*self.DATEPICKER_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Datepicker!')
 
     def click_on_drag_and_drop_btn(self):
         self.driver.find_element(*self.DRAG_AND_DROP_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Drag and drop!')
 
     def click_on_dropdown_btn(self):
         self.driver.find_element(*self.DROPDOWN_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Dropdown!')
 
     def click_on_enab_disab_elems_btn(self):
         self.driver.find_element(*self.ENAB_DISAB_ELEMS_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Enabled and disabled elements!')
 
     def click_on_file_upload_btn(self):
         self.driver.find_element(*self.FILE_UPLOAD_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on File upload!')
 
     def click_on_key_mouse_press_btn(self):
         self.driver.find_element(*self.KEY_MOUSE_PRESS_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Key and mouse press!')
 
     def click_on_modal_btn(self):
         self.driver.find_element(*self.MODAL_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Key and mouse press!')
 
     def click_on_page_scroll_btn(self):
         self.driver.find_element(*self.PAGE_SCROLL_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Page scroll!')
 
     def click_on_radio_btn(self):
         self.driver.find_element(*self.RADIO_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Radio button!')
 
     def click_on_switch_window_btn(self):
         self.driver.find_element(*self.SWITCH_WINDOW_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Switch window!')
 
     def click_on_complete_web_form_btn(self):
         self.driver.find_element(*self.COMPLETE_WEB_FORM_BTN).click()
         time.sleep(1.5)
-        self.driver.find_element(*self.LOGO).click()
+        #self.driver.find_element(*self.LOGO).click()
         print('I clicked on Complete web form!')

@@ -26,9 +26,13 @@ class TestSwitchWindow(unittest.TestCase):
         alert_button = SwitchWindow(self.driver)
         alert_button.click_on_alert()
         time.sleep(1.5)
+        self.driver.close()
+
+    def test_switch_window(self):
         switch_window = SwitchWindow(self.driver)
         switch_window.click_new_tab()
         time.sleep(1.5)
+        self.driver.close()
 
     def tearDown(self) -> None:
         self.driver.quit()
