@@ -5,11 +5,12 @@ TestSuite run
 import unittest
 import HtmlTestRunner
 import os
-from tests import test_autocomplete_page, test_form_page, test_home_page,\
-    test_switch_window_page, test_page_scroll, test_drag_drop, test_buttons_page,\
+from tests import test_autocomplete_page, test_form_page, test_home_page, \
+    test_switch_window_page, test_page_scroll, test_drag_drop, test_buttons_page, \
     test_file_upload, test_enab_disab, test_modal_page, test_radio_button_page
 
 direct = os.getcwd()
+
 
 class MyTestSuite(unittest.TestCase):
 
@@ -39,6 +40,7 @@ class MyTestSuite(unittest.TestCase):
         )
 
         runner1.run(smoke_test)
+
 
 if __name__ == '__main__':
     unittest.main()

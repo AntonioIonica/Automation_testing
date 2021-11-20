@@ -8,7 +8,9 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
+
 service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Curs_10/chromedriver.exe')
+
 
 class TestLogin(unittest.TestCase):
     navi = (By.CSS_SELECTOR, '#content > ul > li:nth-child(21) > a')
@@ -17,6 +19,7 @@ class TestLogin(unittest.TestCase):
     login_btn = (By.CSS_SELECTOR, '#login > button')
     logout_btn = (By.CSS_SELECTOR, '#content > div > a')
     error_login = (By.ID, 'flash-messages')
+    TEXT_AUTH = (By.XPATH, '//*[@id="content"]/div/h4')
 
     def setUp(self) -> None:  # uittest.testcase
         self.driver = webdriver.Chrome(service=service)
@@ -38,9 +41,31 @@ class TestLogin(unittest.TestCase):
             print('Test invalid login passed')
         time.sleep(2)
 
+    def test_auth_auto(self):
+        global user
+        global password
+        self.driver.find_element(*self.navi).click()
+        self.driver.implicitly_wait(5)  # va astepta doar cat e nevoie
+        auth_text = self.driver.find_element(*self.TEXT_AUTH).text
+        print(auth_text)
+        text_lst = auth_text.split('.')[1].split()
+        print(text_lst)
+        # user = ''
+        # password = ''
+        for i in range(0, len(text_lst)):
+            if text_lst[i] == 'Enter':
+                user = text_lst[i + 1]
+            if text_lst[i] == 'and':
+                password = text_lst[i + 1]
+        self.driver.find_element(*self.usr).send_keys(user)
+        self.driver.find_element(*self.pwd).send_keys(password)
+
+        # user_text2 = [text_lst[i + 1] for i in range(0, len(text_lst)) if text_lst[i] == 'Enter']
+
     def tearDown(self) -> None:
         time.sleep(1)
         self.driver.quit()
+
 
 if __name__ == '__main__':
     unittest.main()
