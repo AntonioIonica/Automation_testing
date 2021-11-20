@@ -18,12 +18,26 @@ class TestEnabledDisabledEle(unittest.TestCase):
         self.driver.get('https://formy-project.herokuapp.com/')
         self.driver.maximize_window()
         time.sleep(2)
-
-    def test_check_status(self):
         self.driver.find_element(*self.ENAB_DISAB_ELEMS_BTN).click()
-        time.sleep(2)
+
+    def test_disabled(self):
         status = EnabledDisabledEle(self.driver)
-        status.disabled_check()
+        status.disabled_box()
+        disable_box = self.driver.find_element(By.ID, 'disabledInput')
+        self.assertFalse(disable_box.is_enabled())
+        print(f'Status of Disabled Box is {disable_box.is_displayed}')
+        time.sleep(1.5)
+        self.driver.close()
+
+    def test_enabled(self):
+        status = EnabledDisabledEle(self.driver)
+        status.enabled_box()
+        enable_box = self.driver.find_element(By.ID, 'input')
+        self.assertTrue(enable_box.is_enabled())
+        time.sleep(1.8)
+        print(f'Status of Enabled Box is {enable_box.is_displayed()}')
+        time.sleep(1.5)
+        self.driver.close()
 
     def tearDown(self) -> None:
         self.driver.quit()

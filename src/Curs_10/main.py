@@ -6,7 +6,8 @@ import unittest
 import HtmlTestRunner
 import os
 from tests import test_autocomplete_page, test_form_page, test_home_page,\
-    test_switch_window_page, test_page_scroll, test_drag_drop, test_buttons_page, test_file_upload, test_enab_disab
+    test_switch_window_page, test_page_scroll, test_drag_drop, test_buttons_page,\
+    test_file_upload, test_enab_disab, test_modal_page, test_radio_button_page
 
 direct = os.getcwd()
 
@@ -23,7 +24,9 @@ class MyTestSuite(unittest.TestCase):
             unittest.defaultTestLoader.loadTestsFromTestCase(test_drag_drop.TestDragDrop),
             unittest.defaultTestLoader.loadTestsFromTestCase(test_buttons_page.TestButtonsPage),
             unittest.defaultTestLoader.loadTestsFromTestCase(test_file_upload.TestFileUpload),
-            unittest.defaultTestLoader.loadTestsFromTestCase(test_enab_disab.TestEnabledDisabledEle)
+            unittest.defaultTestLoader.loadTestsFromTestCase(test_enab_disab.TestEnabledDisabledEle),
+            unittest.defaultTestLoader.loadTestsFromTestCase(test_modal_page.TestModalPage),
+            unittest.defaultTestLoader.loadTestsFromTestCase(test_radio_button_page.TestRadioButton)
         ])
 
         outfile = open(direct + 'SmokeTest.html', 'w')

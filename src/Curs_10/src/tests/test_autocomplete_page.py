@@ -6,18 +6,18 @@ import time
 import unittest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+
 from pages.autocomplete_page import AutocompletePage
 
 service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Curs_10/chromedriver.exe')
 
 class TestAutocomplete(unittest.TestCase):
 
-    def setUp(self) -> None: #setUp ruleaza inainte de fiecare testcase, la fiecare!
+    def setUp(self) -> None:
         self.driver = webdriver.Chrome(service=service)
         self.driver.get('https://formy-project.herokuapp.com/autocomplete')
         self.driver.maximize_window()
-
-    # aici vin test caseurile
 
     def test_address_and_title(self):
         auto_page = AutocompletePage(self.driver)
@@ -62,7 +62,7 @@ class TestAutocomplete(unittest.TestCase):
         time.sleep(1.5)
         self.driver.close()
 
-    def tearDown(self) -> None: # ruleaza la fiecare metoda, testcase, la final
+    def tearDown(self) -> None:
         time.sleep(5)
         self.driver.quit()
 
