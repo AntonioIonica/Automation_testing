@@ -1,5 +1,5 @@
 """
-login oop stile
+login oop style
 """
 import unittest
 
@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 
-service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Curs_10/chromedriver.exe')
+service = Service('//chromedriver.exe')
 
 
 class TestLogin(unittest.TestCase):
@@ -21,9 +21,8 @@ class TestLogin(unittest.TestCase):
     error_login = (By.ID, 'flash-messages')
     TEXT_AUTH = (By.XPATH, '//*[@id="content"]/div/h4')
 
-    def setUp(self) -> None:  # uittest.testcase
+    def setUp(self) -> None:
         self.driver = webdriver.Chrome(service=service)
-
         self.driver.maximize_window()
         self.driver.get('https://the-internet.herokuapp.com/')
         time.sleep(2)

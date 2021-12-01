@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Curs_10/chromedriver.exe')
+service = Service('//chromedriver.exe')
 
 chrome_driver = webdriver.Chrome(service=service)
 chrome_driver.maximize_window()

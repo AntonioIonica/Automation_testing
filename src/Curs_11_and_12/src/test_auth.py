@@ -6,7 +6,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
-service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Curs_10/chromedriver.exe')
+service = Service('//chromedriver.exe')
 
 
 class TestAuth(unittest.TestCase):

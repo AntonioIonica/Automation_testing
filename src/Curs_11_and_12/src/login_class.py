@@ -7,7 +7,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
-service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Curs_10/chromedriver.exe')
+service = Service('//chromedriver.exe')
 
 navi = (By.CSS_SELECTOR, '#content > ul > li:nth-child(21) > a')
 usr = (By.ID, 'username')

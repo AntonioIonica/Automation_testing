@@ -1,13 +1,16 @@
 """
 Context menu alert window
 """
+
 import time
 import unittest
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
-service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Curs_10/chromedriver.exe')
+
+service = Service('//chromedriver.exe')
+
 
 class TestContext(unittest.TestCase):
     CONTEXT = (By.XPATH, '//*[@id="content"]/ul/li[7]/a')
