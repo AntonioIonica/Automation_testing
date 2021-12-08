@@ -16,6 +16,4 @@ def before_step(context, step):
     time.sleep(1.5)
 
 
-def after_scenario(context, scenario):
-    context.driver.close()
 
