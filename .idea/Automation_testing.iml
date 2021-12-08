@@ -17,7 +17,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Formy/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/herokuapp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/herokuapp/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Curs_13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/BDD_examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/google_maps_bdd" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />

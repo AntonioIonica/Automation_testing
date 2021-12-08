@@ -1,9 +1,5 @@
 from behave import *
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-
-service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Formy/chromedriver.exe')
 
 
 @given(u'I already have an account')
@@ -13,7 +9,6 @@ def printCreds(context):
 
 @when(u'I open the website')
 def websiteOpen(context):
-    context.driver = webdriver.Chrome(service=service)
     context.driver.get('https://the-internet.herokuapp.com/login')
     context.driver.implicitly_wait(5)
 
@@ -34,8 +29,7 @@ def wrongPassword(context):
 def alertInvalid(context):
     invalid_login = context.driver.find_element(By.XPATH, '//*[@id="flash"]').text
     if 'invalid' in invalid_login:
-        context.driver.close()
-        assert True, 'Test pass!'
+        assert False, 'Test failed!'
 
 
 @when(u'I set the email tomsmith')
@@ -54,7 +48,6 @@ def rightPassword(context):
 def flash(context):
     flash_succesful = context.driver.find_element(By.ID, 'flash').text
     if flash_succesful == 'You logged into a secure area!':
-        context.driver.close()
         assert True, 'Test pass!'
 
 
@@ -62,5 +55,4 @@ def flash(context):
 def secure_area(context):
     secure_area_flash = context.driver.find_element(By.XPATH, '//*[@id="content"]/div/h2').text
     if secure_area_flash == 'Secure Area':
-        context.driver.close()
         assert True, 'Test pass!'

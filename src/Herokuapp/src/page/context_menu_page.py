@@ -7,6 +7,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from page.base_page import BasePage
 
+
 class ContextMenu(BasePage):
     HOTSPOT = (By.ID, 'hot-spot')
 

@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from pages.base_page import BasePage
 
+
 class FormPage(BasePage):
     HEADER = (By.CSS_SELECTOR, 'body > div > h1')
     F_NAME = (By.ID, 'first-name')
@@ -50,11 +51,9 @@ class FormPage(BasePage):
         element = self.driver.find_element(*self.SELECT_MENU)
         drp = Select(element)
         drp.select_by_index(1)
-
         all_options = drp.options[1:]
         for option in all_options:
             print(option.text)
-
 
     def enter_date(self):
         time.sleep(1.5)
@@ -74,5 +73,3 @@ class FormPage(BasePage):
             return True
         else:
             return False
-
-

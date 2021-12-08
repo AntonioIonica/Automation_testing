@@ -1,14 +1,9 @@
 from behave import *
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-
-service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Formy/chromedriver.exe')
 
 
 @given(u'I open the website')
 def websiteOpen(context):
-    context.driver = webdriver.Chrome(service=service)
     context.driver.get('https://the-internet.herokuapp.com/login')
     context.driver.implicitly_wait(5)
 
@@ -28,4 +23,5 @@ def clickLogin(context):
 @then(u'Display "{login_status}"')
 def displayStatus(context, login_status):
     print(f'Yours credentials were {login_status}')
-    context.driver.close()
+
+# TODO Allure reports

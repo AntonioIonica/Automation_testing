@@ -7,20 +7,19 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-
 from pages.form_page import FormPage
 
 service = Service('C:/Users/anton/PycharmProjects/Automation_testing/src/Formy/chromedriver.exe')
 
 
 class TestFormPage(unittest.TestCase):
-    SUCCES_ALERT = (By.XPATH, '/html/body/div/div')
+    SUCCESS_ALERT = (By.XPATH, '/html/body/div/div')
 
     def setUp(self) -> None:
         self.driver = webdriver.Chrome(service=service)
         self.driver.get('https://formy-project.herokuapp.com/form')
         self.driver.maximize_window()
-        time.sleep(2)
+        self.driver.implicitly_wait(5)
 
     def test_form_page(self):
         form_page = FormPage(self.driver)
@@ -44,11 +43,11 @@ class TestFormPage(unittest.TestCase):
         form_page.click_on_submit()
 
         time.sleep(1.5)
-        succes = self.driver.find_element(*self.SUCCES_ALERT).text
+        succes = self.driver.find_element(*self.SUCCESS_ALERT).text
         if 'The form was successfully submitted!' in succes:
-            print('Test passed!')
+            assert True, 'Test passed!'
         else:
-            print('Test Failed!')
+            assert False, 'Test Failed'
         time.sleep(1.5)
 
     def tearDown(self) -> None:

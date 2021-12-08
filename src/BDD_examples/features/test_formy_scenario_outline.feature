@@ -14,5 +14,4 @@ Feature: Login page
       | user2    | password2            | Not_success  |
       | user3    | password3            | Not_success  |
 
-
-    # TODO subprocess.call() cu import subprocess intru-un text file
+    # TODO to parse test.json file and generate a xls file

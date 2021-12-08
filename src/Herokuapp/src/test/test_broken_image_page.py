@@ -30,5 +30,6 @@ class TestBrokenImage(unittest.TestCase):
         broken.broken_images()
         self.driver.close()
 
+
 if __name__ == '__main__':
     unittest.main()
