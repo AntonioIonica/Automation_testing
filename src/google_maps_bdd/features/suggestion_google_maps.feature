@@ -8,8 +8,9 @@ Feature: Google Maps suggestion test
     When I click on Search bar
     And I enter the input "<cities>"
     Then First suggestion should be "<suggestions>"
-    Examples: Cities
+
+    Examples:
       | cities    | suggestions |
-      | Bucharest | Bucharest  |
-      | Cluj      | Cluj       |
-      | Sibiu     | Sibiu      |
+      | Bucharest | Bucharest   |
+      | Cluj      | Cluj        |
+      | Sibiu     | Sibiu       |

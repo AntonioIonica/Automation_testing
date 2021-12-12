@@ -1,23 +1,33 @@
+import time
+
 from behave import *
 from selenium.webdriver.common.by import By
 
 
 @given('I open Google maps website')
 def openWebsite(context):
-    context.driver.get('https://www.google.com/maps')
+    context.driver.get('https://www.google.com/')
     context.driver.maximize_window()
-    context.driver.implicitly_wait(5)
-    context.driver.find_element(By.XPATH, '//*[@id="yDmH0d"]/c-wiz/div/div/div/div[2]/div[1]/div[4]/form/div/div/button').click()
+    try:
+        context.driver.find_element(By.ID, 'L2AGLb').click()
+    finally:
+        google_maps = context.driver.find_element(By.XPATH,
+                                              '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input')
+        google_maps.send_keys('Google maps')
+        google_maps.submit()
+        context.driver.find_element(By.XPATH, '//*[@id="rso"]/div[1]/div/div/div/div/div/div[1]/a/h3').click()
 
 
 @when('I click on Search bar')
 def clickSearchBar(context):
-    context.driver.find_element(By.ID, 'searchboxinput').click()
+    print('test')
+    # context.driver.find_element(By.ID, 'searchboxinput').click()
 
 
 @when('I enter the input "{cities}"')
 def enterInput(context, cities):
     context.driver.find_element(By.ID, 'searchboxinput').send_keys(cities)
+    time.sleep(2)
 
 
 @then('First suggestion should be "{suggestions}"')
