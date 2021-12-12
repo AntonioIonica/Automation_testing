@@ -3,24 +3,24 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Curs_9" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Test_template" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Test_template/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Curs_7" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Curs_8" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/exercices_todo" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/exercices_todo/test" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/exercices_todo/Auto_Sele" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Curs_11_and_12" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Curs_11_and_12/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Formy" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Formy/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/herokuapp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/herokuapp/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/BDD_examples" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/google_maps_bdd" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Api_testing_postman" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Curs_15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BDD_examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Curs_11_and_12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Curs_11_and_12/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Curs_15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Curs_7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Curs_8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Curs_9" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Formy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Formy/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercices_todo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercices_todo/Auto_Sele" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercices_todo/test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/google_maps_bdd" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
