@@ -1,5 +1,4 @@
 # Automation_testing
- Testing courses
+ Automation testing using Selenium, OOP, postman, api, python exercises
 
-Every course is a lesson and there is also an exercises folder
-with homeworks
+The given packages represent different courses and exercises with examples and some scripts from the internet
