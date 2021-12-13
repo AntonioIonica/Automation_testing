@@ -1,7 +1,8 @@
 """
 image processing with Pillow
 """
-from PIL import Image, ImageFilter
+
+from PIL import Image
 
 img = Image.open('/4.5 pikachu.jpg.jpg')
 filtered_image = img.convert('L')

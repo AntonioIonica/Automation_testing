@@ -1,0 +1,1384 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.57 93a4d346",
+  "osm3s": {
+    "timestamp_osm_base": "2021-12-11T10:33:59Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 564907484,
+      "lat": 53.3207259,
+      "lon": -6.2676656,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:country": "IE",
+        "addr:housenumber": "188",
+        "addr:postcode": "D06 H6P4",
+        "addr:street": "Rathgar Road",
+        "amenity": "dentist",
+        "email": "reception@d6dental.ie",
+        "healthcare": "dentist",
+        "name": "D6 Dental (Connellan & Associates)",
+        "opening_hours": "Mo-Fr 08:00-17:30 || \"by appointment\"",
+        "opening_hours:covid19": "open",
+        "operator": "Dr. Tony Connellan;Dr. Marian Kelly",
+        "phone": "+353-1-4966246",
+        "website": "http://d6dental.ie/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 644684719,
+      "lat": 53.3706074,
+      "lon": -6.2677642,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "108",
+        "addr:street": "Saint Mobhi Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Cahill's Dental Clinic",
+        "phone": "+353 1 8373714",
+        "website": "http://www.cahilldental.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 725129835,
+      "lat": 53.3492432,
+      "lon": -6.2418961,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:street": "Mayor Street Lower",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "IFSC Dental Care"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1423538031,
+      "lat": 53.3763652,
+      "lon": -6.3331516,
+      "tags": {
+        "addr:housename": "The Village Centre",
+        "addr:street": "Ashtown Road",
+        "amenity": "dentist",
+        "email": "hello@phoenixdental.ie",
+        "healthcare": "dentist",
+        "name": "Phoenix Dental",
+        "opening_hours": "Mo-Th 08:00-20:00, Fr  09:00-17:00 Sa 09:00-15:00",
+        "operator": "Dr. Richard Hannon, Dr. Jolene Molloy",
+        "phone": "+353-1-8664080",
+        "website": "https://phoenixdental.ie/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1426100415,
+      "lat": 53.3336905,
+      "lon": -6.2907542,
+      "tags": {
+        "addr:housenumber": "28",
+        "addr:street": "Dolphin's Barn Street",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "T. A. Boylan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2561293807,
+      "lat": 53.3458333,
+      "lon": -6.2382109,
+      "tags": {
+        "amenity": "dentist",
+        "entrance": "main",
+        "healthcare": "dentist",
+        "name": "Redmond Molloy",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2612015817,
+      "lat": 53.3433184,
+      "lon": -6.3559171,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Dentist.  Shane Barnes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2630347709,
+      "lat": 53.3419089,
+      "lon": -6.2499053,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "37",
+        "addr:street": "Fenian Street",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "level": "-1",
+        "name": "Gallagher & Associates",
+        "note": "Dr Conor Gallagher BDS, Dr Paul Burgess BDS",
+        "opening_hours": "Mo,Tu,Th 09:30-20:30; We,Fr 09:30-17:00",
+        "phone": "+353 1 6788158",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2784725503,
+      "lat": 53.3250491,
+      "lon": -6.2537647,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:street": "Chelmsford Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Ranelagh Court Dental Practice",
+        "note": "Dr. Declan Moloney",
+        "phone": "+353 1 4964122",
+        "website": "https://ranelaghdental.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2886074909,
+      "lat": 53.3176122,
+      "lon": -6.2698106,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "156A",
+        "addr:postal_district": "D06",
+        "addr:street": "Rathgar Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Rathgar Dental Clinic",
+        "operator": "Dr. Robert Gorby",
+        "website": "http://rathgardentist.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2886210902,
+      "lat": 53.3229477,
+      "lon": -6.2658354,
+      "tags": {
+        "addr:housenumber": "183",
+        "addr:postcode": "D06 E3E5",
+        "addr:street": "Rathmines Road Lower",
+        "amenity": "dentist",
+        "email": "rathminesdental183@gmail.com",
+        "healthcare": "dentist",
+        "name": "Rathmines Dental",
+        "opening_hours": "Mo,Fr 08:00-16:00; Tu,Th 10:00-19:00; We 08:00-13:00",
+        "phone": "+353-1-4976543",
+        "website": "http://www.rathminesdental.ie/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2986730984,
+      "lat": 53.3229661,
+      "lon": -6.2793685,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "196",
+        "addr:street": "Harold's Cross Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Crown Dental",
+        "phone": "+353 1 4904656",
+        "website": "https://www.crowndental.ie/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2990324343,
+      "lat": 53.3231991,
+      "lon": -6.2954085,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "114",
+        "addr:street": "Sundrive Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Labodent Orthodontic Laboratory"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2990859849,
+      "lat": 53.3246981,
+      "lon": -6.2964397,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:street": "Sundrive Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "MacNally"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2991107251,
+      "lat": 53.3273963,
+      "lon": -6.3046473,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "109",
+        "addr:street": "Old County Road",
+        "amenity": "dentist",
+        "healthcare": "dentist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2992718491,
+      "lat": 53.3246716,
+      "lon": -6.3179519,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "10",
+        "addr:street": "Saint Mary's Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "phone": "+353 1 4099646"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2995285108,
+      "lat": 53.3198856,
+      "lon": -6.3153481,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:street": "Saint Agnes Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "healthcare:speciality": "denturist",
+        "name": "Crumlin Denture Service",
+        "phone": "+353 1 4550992"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2995293836,
+      "lat": 53.3206483,
+      "lon": -6.3169518,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Saint Agnes Road (Crumlin Village)",
+        "amenity": "dentist",
+        "fixme": "Check address",
+        "healthcare": "dentist",
+        "name": "Clear Dental",
+        "old_name": "Donal J Corrigan & Co (Closed)",
+        "opening_hours": "Mo-Th 08:00-20:00, Fr 08:00-17:00, Sa 08:00-13:00",
+        "phone": "+353-1-4557797",
+        "website": "http://cleardentalcare.ie/location/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2998424557,
+      "lat": 53.3321482,
+      "lon": -6.2532484,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:street": "Adelaide Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Richard Lee Kin"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3039274647,
+      "lat": 53.3117846,
+      "lon": -6.2747987,
+      "tags": {
+        "addr:street": "Terenure Road East",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Rathgar Dental Practice"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3055647958,
+      "lat": 53.3234113,
+      "lon": -6.2599994,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "1",
+        "addr:street": "Belgrave Square East",
+        "amenity": "dentist",
+        "email": "info@belgravedentalclinic.ie",
+        "healthcare": "dentist",
+        "name": "Belgrave Dental Clinic",
+        "phone": "+353-1-4967661",
+        "website": "http://www.belgravedentalclinic.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3066054741,
+      "lat": 53.3410451,
+      "lon": -6.2721419,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "61-62",
+        "addr:street": "Patrick Street",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "CAS Dental Laboratory",
+        "opening_hours": "Mo-Tu 09:00-17:30, We 09:00-13:00, Th-Fr 09:00-17:30, Sa 09:00-13:00",
+        "website": "http://www.casdental.ie/about-us/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3066520365,
+      "lat": 53.329689,
+      "lon": -6.2668168,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "Grove Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Canal View Dental",
+        "phone": "+353-1-4066937",
+        "website": "http://www.canalviewdental.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3072196780,
+      "lat": 53.3321054,
+      "lon": -6.253421,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "54",
+        "addr:street": "Adelaide Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Adelaide Dental Clinic",
+        "phone": "+353 1 6766849",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3076179838,
+      "lat": 53.3248134,
+      "lon": -6.2533134,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "72",
+        "addr:street": "Ranelagh",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Ranelagh Village Dental",
+        "opening_hours": "Mo-Fr 8:00-20:00, Sa 08:30-13:30",
+        "phone": "+353 496 9681",
+        "website": "http://www.ranelaghvillagedental.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3076205707,
+      "lat": 53.3230369,
+      "lon": -6.2652231,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housename": "Swan Medical Centre",
+        "addr:street": "Rathmines Road Lower",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "John Lynch",
+        "phone": "+353 1 4977533"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3076205708,
+      "lat": 53.323035,
+      "lon": -6.2651644,
+      "tags": {
+        "addr:housename": "Swan Medical Centre",
+        "addr:street": "Rathmines Road Lower",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Marian Kelly",
+        "phone": "+353-1-4977533"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3076205709,
+      "lat": 53.3230029,
+      "lon": -6.265171,
+      "tags": {
+        "addr:housename": "Swan Medical Centre",
+        "addr:street": "Rathmines Road Lower",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Barry Cramer",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3077640353,
+      "lat": 53.3253314,
+      "lon": -6.321578,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "1",
+        "addr:street": "Errigal Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Crumlin Medical Centre",
+        "opening_hours": "Mo-Th 08:00-12:30, 13:30-15:00, Fr 08:00-12:00",
+        "phone": "+353 1 4557260",
+        "website": "http://crumlinclinic.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3079055275,
+      "lat": 53.3215739,
+      "lon": -6.2656421,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "2",
+        "addr:street": "Rathmines Road Upper",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Ivan Power",
+        "note": "Previously at 1a Grosvenor Road",
+        "opening_hours": "Mo-Fr 08:00-17:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3090610750,
+      "lat": 53.3407058,
+      "lon": -6.2941033,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housename": "St. James's Hospital",
+        "addr:street": "James Street",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Anaesthetic Dental Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3093244419,
+      "lat": 53.3144821,
+      "lon": -6.2826007,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Terenure Road North",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Dr Ciaran Casey",
+        "phone": "+353-1-4929244"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3104910653,
+      "lat": 53.3107264,
+      "lon": -6.2811422,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "74a",
+        "addr:street": "Terenure Road East",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "R&D Dental Practice",
+        "phone": "+353 1 4904850",
+        "website": "http://www.rddentalpractice.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3106278307,
+      "lat": 53.3102433,
+      "lon": -6.2835877,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "130",
+        "addr:street": "Terenure Road North",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Karen Lowe",
+        "opening_hours": "Mo 08:30-17:30; Tu-Fr 09:00-17:00",
+        "phone": "+353 1 4904935",
+        "website": "http://www.karenlowe.ie/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3123731960,
+      "lat": 53.3434686,
+      "lon": -6.2755989,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "10",
+        "addr:street": "Cornmarket",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "HSE Dental Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3135860704,
+      "lat": 53.4047793,
+      "lon": -6.2912645,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "14",
+        "addr:street": "Hampton Wood Road",
+        "amenity": "dentist",
+        "fixme": "Opening hours appear incomplete and the Sunday timing is certainly incomplete",
+        "healthcare": "dentist",
+        "name": "Med-Dent Dental & Medical Clinic",
+        "opening_hours": "Th-Fr 11:00-18:00; Sa 10:00-17:00; Su 12:00+",
+        "phone": "+353 1 5575021",
+        "website": "http://meddent.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3163102850,
+      "lat": 53.3320711,
+      "lon": -6.2757,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "119",
+        "addr:street": "South Circular Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Dr. Hugh O'Neill",
+        "phone": "+353 1 4543059."
+      }
+    },
+    {
+      "type": "node",
+      "id": 3426385198,
+      "lat": 53.3193995,
+      "lon": -6.233813,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "11",
+        "addr:street": "Eglinton Road",
+        "amenity": "dentist",
+        "healthcare": "dentist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3450084684,
+      "lat": 53.3584153,
+      "lon": -6.2539285,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "565",
+        "addr:street": "North Circular Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Crystal Dental Clinic",
+        "opening_hours": "Mo-Fr 10:00-13:00, 14:00-18:00, Sa 10:00-14:00",
+        "phone": "+353 1 8559561",
+        "website": "http://www.crystaldental.ie/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3476314572,
+      "lat": 53.3471638,
+      "lon": -6.2815869,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "6",
+        "addr:street": "John Street North",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "ArtMedica Clinic",
+        "phone": "+353 1 6722999",
+        "website": "http://www.artmedica.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3477753529,
+      "lat": 53.3569873,
+      "lon": -6.2439148,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "37",
+        "addr:street": "North Strand Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Dr. MV Larkin",
+        "phone": "+353 1 8746660"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3477907296,
+      "lat": 53.3380349,
+      "lon": -6.2660974,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "13-16",
+        "addr:postcode": "D02 RP46",
+        "addr:street": "Redmonds Hill",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "healthcare:speciality": "dentist;orthodontics;dentistry;dental;paediatric_dentistry",
+        "name": "Dental House",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "website": "https://dentalhouse.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3521465545,
+      "lat": 53.3209266,
+      "lon": -6.2652007,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "24",
+        "addr:street": "Rathmines Road Upper",
+        "amenity": "dentist",
+        "email": "info@rathminesroaddentalclinic.ie",
+        "healthcare": "dentist",
+        "name": "Rathmines Road Dental",
+        "opening_hours": "Mo-Th 8:00-20:00, Fr 8:00-17:00, Sa 9:00-14:00",
+        "phone": "+353-1-4062084",
+        "website": "https://rathminesroaddentalclinic.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3564101656,
+      "lat": 53.3326493,
+      "lon": -6.2685071,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housename": "ALTONA",
+        "addr:housenumber": "2",
+        "addr:postcode": "D08 DR60",
+        "addr:street": "South Circular Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "healthcare:speciality": "orthodontics",
+        "name": "Ethos Orthodontics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3566078017,
+      "lat": 53.3322446,
+      "lon": -6.269005,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "11",
+        "addr:street": "South Circular Road",
+        "alt_phone": "+353 1 4549400",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "SCR Dental - Neligan, Gilbourne & Associates",
+        "opening_hours": "Mo-Th 07:30-17:30, Fr 07:30-13:00, Sa 08:00-13:00",
+        "phone": "+353 1 4549688",
+        "website": "http://www.scrdental.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3567111771,
+      "lat": 53.3325517,
+      "lon": -6.2705318,
+      "tags": {
+        "addr:housenumber": "34",
+        "addr:street": "South Circular Road",
+        "amenity": "dentist",
+        "contact:facebook": "https://www.facebook.com/portobellodental",
+        "email": "info@portobellodental.com",
+        "healthcare": "dentist",
+        "name": "Portobello Dental Clinic",
+        "opening_hours": "Mo-Th 08:00-20:00; Fr 08:00-17:00; Sa 09:00-14:00",
+        "phone": "+353-1-4542022",
+        "website": "https://www.portobellodental.ie/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3601177185,
+      "lat": 53.3327196,
+      "lon": -6.2646975,
+      "tags": {
+        "addr:housenumber": "35",
+        "addr:street": "Camden Street Upper",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Harcourt Health",
+        "website": "http://www.harcourthealth.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3676901200,
+      "lat": 53.3587079,
+      "lon": -6.2412927,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:street": "North Strand Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Dr. Sean Murray"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3733532958,
+      "lat": 53.3018517,
+      "lon": -6.1779155,
+      "tags": {
+        "addr:city": "Blackrock",
+        "addr:street": "Main Street",
+        "alt_name": "The Village Dentist",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Blackrock Dental",
+        "opening_hours": "Mo-Th 08:30-17:00; Fr 08:00-16:00; Sa 09:00-14:00",
+        "phone": "+353-1-278-9007",
+        "website": "http://www.mydentist.ie/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3796695269,
+      "lat": 53.3408291,
+      "lon": -6.2572256,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Molesworth Place",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Molesworth Clinic",
+        "phone": "+353-1-6615544"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3876145359,
+      "lat": 53.3472498,
+      "lon": -6.2818626,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "77",
+        "addr:street": "Benburb Street",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Brilliant Smile Dentistry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3910176063,
+      "lat": 53.3021116,
+      "lon": -6.3049381,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "48",
+        "addr:postal_district": "D6W",
+        "addr:street": "Fortfield Park",
+        "amenity": "dentist",
+        "contact:facebook": "https://www.facebook.com/Fortfield-Dental-174238742619611/",
+        "email": "info@fortfielddental.ie",
+        "healthcare": "dentist",
+        "opening_hours": "Mo-Tu 8:00-20:00, We 8:00-18:00, Th 12:00-18:00, Fr 8:00-14:00",
+        "phone": "+353 1 492 7288",
+        "website": "http://www.fortfielddental.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4077375622,
+      "lat": 53.3490484,
+      "lon": -6.2421589,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:street": "Mayor Street Lower",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Docklands Dental",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4572431599,
+      "lat": 53.3325101,
+      "lon": -6.2158079,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Dr. Elizabeth Melvin",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4715557536,
+      "lat": 53.3329025,
+      "lon": -6.243713,
+      "tags": {
+        "addr:housename": "Waterloo Exchange",
+        "addr:street": "Waterloo Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Smiles Dental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4804346720,
+      "lat": 53.3086339,
+      "lon": -6.1963686,
+      "tags": {
+        "addr:housenumber": "115",
+        "addr:street": "Rock Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "level": "1",
+        "name": "Booterstown Dental Practice",
+        "phone": "+353-1-288-5746",
+        "website": "https://booterstowndental.ie/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4820908494,
+      "lat": 53.3001793,
+      "lon": -6.1731672,
+      "tags": {
+        "addr:city": "Blackrock",
+        "addr:housenumber": "7",
+        "addr:street": "Newtown Avenue",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "McMahon Dental",
+        "opening_hours": "Mo-Fr 07:30-17:30; Sa 08:30-12:30; Su Off",
+        "phone": "+353-1-288-9161",
+        "website": "http://mcmahondental.ie/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4899884230,
+      "lat": 53.3602987,
+      "lon": -6.2761456,
+      "tags": {
+        "addr:housenumber": "306",
+        "addr:street": "North Circular Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Dental Practice",
+        "opening_hours": "Mo-Fr 09:00-18:00+",
+        "phone": "+353 1 830 3701"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5120211059,
+      "lat": 53.3894464,
+      "lon": -6.19704,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Tonlegee Road",
+        "amenity": "dentist",
+        "email": "info@northcitydental.ie",
+        "healthcare": "dentist",
+        "name": "North City Dental",
+        "phone": "+353-1-8480468",
+        "website": "http://www.northcitydental.ie/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5167246070,
+      "lat": 53.3378115,
+      "lon": -6.2526021,
+      "tags": {
+        "addr:street": "Baggot Street Lower",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Baggot Dental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5167698294,
+      "lat": 53.334794,
+      "lon": -6.245782,
+      "tags": {
+        "addr:housenumber": "70",
+        "addr:street": "Baggot Street Lower",
+        "amenity": "dentist",
+        "email": "info@hamptondental.ie",
+        "healthcare": "dentist",
+        "name": "Hampton Dental",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "phone": "+353-1-6610701",
+        "website": "http://hamptondental.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5268076351,
+      "lat": 53.3880354,
+      "lon": -6.244462,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Molloy Dentist",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5395798848,
+      "lat": 53.3891624,
+      "lon": -6.245608,
+      "tags": {
+        "addr:housenumber": "252",
+        "addr:street": "Swords Road",
+        "alt_name": "Keogh Dentures",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Keogh\u2019s Dental Laboratory",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "phone": "+353-1-8306818",
+        "website": "http://www.keoghdentures.com",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5400402791,
+      "lat": 53.3565442,
+      "lon": -6.2650078,
+      "tags": {
+        "addr:street": "Dorset Street Upper",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Dorset Dental Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5405991634,
+      "lat": 53.3607396,
+      "lon": -6.2599868,
+      "tags": {
+        "addr:street": "Dorset Street Lower",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Dental & Denture Express Clinic",
+        "phone": "+353-1-8551549",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5428340012,
+      "lat": 53.3707918,
+      "lon": -6.2055375,
+      "tags": {
+        "addr:housenumber": "183",
+        "addr:street": "Howth Road",
+        "amenity": "dentist",
+        "email": "info@howthroaddental.ie",
+        "healthcare": "dentist",
+        "name": "Howth Road Dental",
+        "opening_hours": "Mo 09:00-18:00, Tu 10:00-20:00, We 09:00-17:00, Th 10:00-17:00, Fr 09:00-17:00",
+        "phone": "+353-1-8533006",
+        "website": "http://howthroaddental.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5429898088,
+      "lat": 53.3593624,
+      "lon": -6.1964782,
+      "tags": {
+        "addr:housenumber": "192",
+        "addr:street": "Clontarf Road",
+        "amenity": "dentist",
+        "email": "clontarf@dublinorthodontics.ie",
+        "fax": "+353-1-8535831",
+        "healthcare": "dentist",
+        "healthcare:speciality": "orthodontics",
+        "name": "Dublin Orthodontics",
+        "phone": "+353-1-8535814",
+        "website": "https://www.dublinorthodontics.ie/locations/clontarf.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5440835416,
+      "lat": 53.3002148,
+      "lon": -6.1733079,
+      "tags": {
+        "addr:city": "Blackrock",
+        "addr:housenumber": "6",
+        "addr:street": "Maretimo Gardens West",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "phone": "+353-1-288-2308",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5485439076,
+      "lat": 53.3217903,
+      "lon": -6.2367765,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "The Crescent",
+        "amenity": "dentist",
+        "email": "donnybrook@ortho.ie",
+        "fax": "+353-1-2695567",
+        "healthcare": "dentist",
+        "healthcare:speciality": "orthodontics",
+        "name": "Ortho",
+        "opening_hours": "Mo-We 08:00-17:00, Th-Fr 08:00-18:00, Sa 08:00-14:00",
+        "operator": "Hugh Bradley Limited",
+        "phone": "+353-1-2695566",
+        "website": "http://www.ortho.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5492609798,
+      "lat": 53.3245038,
+      "lon": -6.2405891,
+      "tags": {
+        "addr:housenumber": "79",
+        "addr:street": "Morehampton Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Dr. Miriam Kenny",
+        "operator": "Dr. Miriam Kenny",
+        "phone": "+353-1-6683620"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5621631608,
+      "lat": 53.3136005,
+      "lon": -6.2465302,
+      "tags": {
+        "addr:housename": "Milltown Shopping Centre",
+        "addr:street": "Milltown Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Milltown Dental Clinic",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5628924041,
+      "lat": 53.349412,
+      "lon": -6.2597351,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "28",
+        "addr:street": "O'Connell Street Lower",
+        "amenity": "dentist",
+        "email": "info@smiles.ie",
+        "healthcare": "dentist",
+        "name": "Smiles Dental",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 10:00-18:00; Su 10:00-16:00",
+        "operator": "Xeon Dental Services Limited",
+        "phone": "+353-1-5079201",
+        "website": "https://www.smiles.ie/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5862047858,
+      "lat": 53.3419918,
+      "lon": -6.3527075,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Medi-Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5862047875,
+      "lat": 53.3424492,
+      "lon": -6.3508758,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "276",
+        "addr:postcode": "D10 FA31",
+        "addr:street": "Ballyfermot Road",
+        "amenity": "dentist",
+        "email": "ballyfermotdentalpractice3@gmail.com",
+        "healthcare": "dentist",
+        "name": "Ballyfermot Dental Practice",
+        "phone": "+353-1-6265776",
+        "website": "https://www.ballyfermotdentalpractice.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6011134295,
+      "lat": 53.3301151,
+      "lon": -6.2325437,
+      "tags": {
+        "addr:housenumber": "166",
+        "addr:postcode": "D04 W996",
+        "addr:street": "Pembroke Road",
+        "amenity": "dentist",
+        "email": "info@pembrokedentist.ie",
+        "healthcare": "dentist",
+        "name": "Pembroke Dental",
+        "phone": "+353-1-6683242",
+        "website": "https://pembrokedentist.ie/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6050242203,
+      "lat": 53.3968724,
+      "lon": -6.2449382,
+      "tags": {
+        "addr:housenumber": "37",
+        "addr:street": "Swords Road",
+        "amenity": "dentist",
+        "email": "clinic@santrydental.ie",
+        "healthcare": "dentist",
+        "name": "Santry Dental",
+        "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:00-15:00",
+        "phone": "+353-1-9695959",
+        "website": "https://santrydental.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6159126158,
+      "lat": 53.3730365,
+      "lon": -6.3621793,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Dental Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6185260266,
+      "lat": 53.3401016,
+      "lon": -6.2605695,
+      "tags": {
+        "addr:street": "Grafton Street",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Grafton Dental Surgery",
+        "phone": "+353-1-6771613",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6205542463,
+      "lat": 53.3600372,
+      "lon": -6.2771335,
+      "tags": {
+        "addr:street": "North Circular Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Advanced Dental Studios",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6205757530,
+      "lat": 53.3607069,
+      "lon": -6.2741235,
+      "tags": {
+        "addr:housenumber": "340a",
+        "addr:postcode": "D07 C9HE",
+        "addr:street": "North Circular Road",
+        "amenity": "dentist",
+        "email": "ei.cinilclacidem@ofni",
+        "healthcare": "dentist",
+        "name": "Phibsborough Dental & Medical Centre",
+        "website": "http://polskaprzychodnia.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6222161643,
+      "lat": 53.3415515,
+      "lon": -6.2724911,
+      "tags": {
+        "addr:postcode": "D08 V5Y4",
+        "addr:street": "Nicholas Street",
+        "amenity": "dentist",
+        "email": "contact@patrickdental.ie",
+        "healthcare": "dentist",
+        "name": "Patrick Dental",
+        "opening_hours": "Mo-Fr 10:00-20:00, Sa 10:00-16:00",
+        "phone": "+353-1-4535854",
+        "website": "https://patrickdental.ie/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6223603973,
+      "lat": 53.3562716,
+      "lon": -6.266562,
+      "tags": {
+        "addr:housenumber": "70",
+        "addr:street": "Blessington Street",
+        "amenity": "dentist",
+        "email": "info@luxdent.ie",
+        "healthcare": "dentist",
+        "name": "Luxdent",
+        "opening_hours": "Mo-Fr 09:00-20:00, Sa 10:00-18:00",
+        "phone": "+353-1-4443370",
+        "website": "http://luxdent.ie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6421864486,
+      "lat": 53.3450316,
+      "lon": -6.2972225,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "healthcare:speciality": "dentist",
+        "name": "Dublin Dental Specialist",
+        "opening_hours": "Mo-Fr 09:00-17:00; Sa 08:00-12:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6444060053,
+      "lat": 53.338866,
+      "lon": -6.3215361,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Inchicore Dental Centre",
+        "phone": "01 454 7207"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6776925960,
+      "lat": 53.3505136,
+      "lon": -6.3517018,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8481154255,
+      "lat": 53.3164197,
+      "lon": -6.2093121,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "healthcare:speciality": "dentist",
+        "name": "Merrion Road Dentist",
+        "phone": "+353 1 572 0888",
+        "website": "www.merrionroaddental.ie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8515445509,
+      "lat": 53.3447239,
+      "lon": -6.2384876,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Smiles Dental",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa,Su 10:00-16:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8916822106,
+      "lat": 53.4039191,
+      "lon": -6.181204,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "healthcare:speciality": "dentist",
+        "name": "Northern Cross Dental Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9010715785,
+      "lat": 53.3727555,
+      "lon": -6.3608917,
+      "tags": {
+        "addr:city": "Castleknock",
+        "addr:housename": "Ashleigh Centre",
+        "addr:housenumber": "Unit 9",
+        "addr:postcode": "D15 W9DH",
+        "addr:street": "Castleknock Road",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "healthcare:speciality": "orthodontics;dentist;dentistry",
+        "name": "Dental House Castleknock Orthodontics & Implant Care",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "website": "https://dentalhouse.ie/castleknock/"
+      }
+    }
+  ]
+}

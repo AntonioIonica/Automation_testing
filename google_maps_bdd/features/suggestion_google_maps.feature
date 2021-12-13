@@ -6,8 +6,8 @@ Feature: Google Maps suggestion test
   Scenario Outline: Input different cities
     Given I open Google maps website
     When I click on Search bar
-    And I enter the input "<cities>"
-    Then First suggestion should be "<suggestions>"
+    And I enter the input <cities>
+    Then First suggestion should be <suggestions>
 
     Examples:
       | cities    | suggestions |

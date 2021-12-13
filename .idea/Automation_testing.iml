@@ -9,18 +9,21 @@
       <sourceFolder url="file://$MODULE_DIR$/src/herokuapp/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Api_testing_postman" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BDD_examples" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Curs_11_and_12" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Curs_11_and_12/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Curs_15" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Curs_7" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Curs_8" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Curs_9" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Formy" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Formy/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercices_todo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercices_todo/Auto_Sele" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercices_todo/test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/google_maps_bdd" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/API_osm_course" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BDD_Formy_testing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BDD_Formy_testing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Fuzzywuzzy_course_exercice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOP_course_exercices" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOP_formy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOP_formy/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOP_the_internet_herokuapp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/performance_checking_course_exercices" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/unittest_html_course" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/unittest_html_course/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />

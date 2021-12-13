@@ -4,8 +4,8 @@ How to validate some password
 """
 
 import re
+
 pattern = re.compile(r'([A-Za-z0-9$%#@]{8,}[0-9])')
 password = '23423@%@8'
 check = pattern.fullmatch(password)
 print(check)
-

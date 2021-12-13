@@ -1,0 +1,73 @@
+
+Running tests... 
+----------------------------------------------------------------------
+ test_addresses_and_title (tests.test_autocomplete_page.TestAutocomplete) ... OK (12.522153)s
+ test_form_page (tests.test_form_page.TestFormPage) ... OK (35.810100)s
+ test_click_on_autocomplete (tests.test_home_page.TestHomePage) ... OK (6.648113)s
+ test_click_on_buttons (tests.test_home_page.TestHomePage) ... OK (6.673348)s
+ test_click_on_checkbox (tests.test_home_page.TestHomePage) ... OK (6.678519)s
+ test_click_on_datepicker (tests.test_home_page.TestHomePage) ... OK (6.668165)s
+ test_click_on_dragdrop (tests.test_home_page.TestHomePage) ... OK (6.662805)s
+ test_click_on_dropdown (tests.test_home_page.TestHomePage) ... OK (6.681060)s
+ test_click_on_enab_disab_elems (tests.test_home_page.TestHomePage) ... OK (6.646039)s
+ test_click_on_fileupload (tests.test_home_page.TestHomePage) ... OK (6.594176)s
+ test_click_on_modal (tests.test_home_page.TestHomePage) ... OK (6.677252)s
+ test_click_on_mouse_press (tests.test_home_page.TestHomePage) ... OK (6.626276)s
+ test_click_on_page_scroll (tests.test_home_page.TestHomePage) ... OK (6.650787)s
+ test_click_on_radio (tests.test_home_page.TestHomePage) ... OK (6.648379)s
+ test_click_on_switch (tests.test_home_page.TestHomePage) ... OK (6.619045)s
+ test_click_on_web_form (tests.test_home_page.TestHomePage) ... OK (6.644366)s
+ test_new_tab (tests.test_switch_window_page.TestSwitchWindow) ... OK (11.662592)s
+ test_switch_window (tests.test_switch_window_page.TestSwitchWindow) ... OK (17.264547)s
+ test_scroll_down (tests.test_page_scroll.TestPageScroll) ... FAIL (17.371594)s
+ test_drag_drop (tests.test_drag_drop.TestDragDrop) ... OK (11.742203)s
+ test_click_on_buttons (tests.test_buttons_page.TestButtonsPage) ... FAIL (17.184714)s
+ test_click_on_dropdown (tests.test_buttons_page.TestButtonsPage) ... OK (14.968983)s
+ test_hover_on_buttons (tests.test_buttons_page.TestButtonsPage) ... OK (11.087863)s
+ test_file_upload (tests.test_file_upload.TestFileUpload) ... OK (8.729488)s
+ test_disabled (tests.test_enab_disab.TestEnabledDisabledEle) ... OK (8.859709)s
+ test_enabled (tests.test_enab_disab.TestEnabledDisabledEle) ... OK (14.812106)s
+ test_click_on_close (tests.test_modal_page.TestModalPage) ... OK (15.818520)s
+ test_click_on_ok (tests.test_modal_page.TestModalPage) ... FAIL (12.317992)s
+ test_modal_text (tests.test_modal_page.TestModalPage) ... OK (13.748870)s
+ test_btn_1 (tests.test_radio_button_page.TestRadioButton) ... OK (15.868048)s
+ test_btn_1_displayed (tests.test_radio_button_page.TestRadioButton) ... OK (28.041480)s
+ test_btn_2 (tests.test_radio_button_page.TestRadioButton) ... OK (16.219309)s
+ test_btn_3 (tests.test_radio_button_page.TestRadioButton) ... OK (15.840650)s
+
+======================================================================
+FAIL [17.371594s]: tests.test_page_scroll.TestPageScroll.test_scroll_down
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\anton\PycharmProjects\Automation_testing\OOP_formy\src\tests\test_page_scroll.py", line 34, in test_scroll_down
+    self.assertIn('Antonio', full_name)
+AssertionError: 'Antonio' not found in ''
+C:\Users\anton\PycharmProjects\Automation_testing\OOP_formy\src\tests\test_page_scroll.py:18: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  self.driver = webdriver.Chrome(ChromeDriverManager().install())
+
+======================================================================
+FAIL [17.184714s]: tests.test_buttons_page.TestButtonsPage.test_click_on_buttons
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\anton\PycharmProjects\Automation_testing\OOP_formy\src\tests\test_buttons_page.py", line 36, in test_click_on_buttons
+    self.assertTrue(btn_2.is_selected())
+AssertionError: False is not true
+C:\Users\anton\PycharmProjects\Automation_testing\OOP_formy\src\tests\test_buttons_page.py:18: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  self.driver = webdriver.Chrome(ChromeDriverManager().install())
+
+======================================================================
+FAIL [12.317992s]: tests.test_modal_page.TestModalPage.test_click_on_ok
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\anton\PycharmProjects\Automation_testing\OOP_formy\src\tests\test_modal_page.py", line 38, in test_click_on_ok
+    self.assertFalse(modal_title.is_displayed())
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 33 tests in 0:06:32
+
+FAILED
+ (Failures=3)
+
+Generating HTML reports... 
+reports\Smoke Tests_2021-12-13_14-52-00.html

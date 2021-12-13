@@ -9,7 +9,7 @@ if not os.path.exists(directory):
     os.makedirs(directory)
 
 for filename in os.listdir(path):
-    clean_name = os.path.splitext(filename)[0] # [0] acceseaza doar numele curat, fara extensia .jpg, splitest curata
+    clean_name = os.path.splitext(filename)[0]  # [0] acceseaza doar numele curat, fara extensia .jpg, splitest curata
     img = Image.open(f'{path}{filename}')
     # added the / in case user doesn't enter it. You may want to check for this and add or remover it.
     img.save(f'{directory}/{clean_name}.png', 'png')

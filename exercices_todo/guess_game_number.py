@@ -1,11 +1,11 @@
 """
-Toata asta de copiat intr-un fisier extern .py si de rulat apoi in terminal
+This was run by an extern file
 """
+
 from random import randint
 import sys
 
 answer = randint(int(sys.argv[1]), int(sys.argv[2]))
-
 
 while True:
     try:

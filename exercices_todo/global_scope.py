@@ -5,10 +5,12 @@ so you can store something outside
 
 total = 0
 
+
 def plus_one():
-    global total    # aici declaram variabila care deja exista global sa aiba acces la ea
-    total += 1      # aici ne folosim de variabila total care vina din exteriorul functiei si va tine minte cifra
-    return total    # aici returnam valoarea total
+    global total  # aici declaram variabila care deja exista global sa aiba acces la ea
+    total += 1  # aici ne folosim de variabila total care vina din exteriorul functiei si va tine minte cifra
+    return total  # aici returnam valoarea total
+
 
 plus_one()
 plus_one()
