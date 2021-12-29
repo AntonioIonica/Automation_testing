@@ -1,0 +1,1 @@
+Testing a demo website with ecommerce functionality to demonstrate the basics like buying, register, login.
