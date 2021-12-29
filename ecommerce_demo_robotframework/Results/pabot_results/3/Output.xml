@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.0 on win32)" generated="20211229 15:04:42.952" rpa="false" schemaversion="2">
+<suite id="s1" name="TestCases" source="C:\Users\anton\PycharmProjects\Automation_testing\ecommerce_demo_robotframework\TestCases">
+<suite id="s1-s1" name="Register Page" source="C:\Users\anton\PycharmProjects\Automation_testing\ecommerce_demo_robotframework\TestCases\register_page.robot">
+<kw name="Open my browser" library="register_page_resources" type="SETUP">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<msg timestamp="20211229 15:04:43.253" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<status status="PASS" starttime="20211229 15:04:43.252" endtime="20211229 15:04:47.441"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211229 15:04:47.442" endtime="20211229 15:04:47.595"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:43.251" endtime="20211229 15:04:47.595"/>
+</kw>
+<test id="s1-s1-t1" name="Registration with valid info">
+<kw name="Open register page" library="register_page_resources">
+<arg>${register}</arg>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${register}</arg>
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<msg timestamp="20211229 15:04:47.597" level="INFO">Opening url 'https://demo.nopcommerce.com/register?returnUrl=%2F'</msg>
+<status status="PASS" starttime="20211229 15:04:47.597" endtime="20211229 15:04:48.291"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:47.596" endtime="20211229 15:04:48.292"/>
+</kw>
+<kw name="Register page form">
+<kw name="Gender choose" library="register_page_resources">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${gender_male}</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:48.294" level="INFO">Clicking element 'id:gender-male'.</msg>
+<status status="PASS" starttime="20211229 15:04:48.294" endtime="20211229 15:04:48.352"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:48.293" endtime="20211229 15:04:48.353"/>
+</kw>
+<kw name="First name input" library="register_page_resources">
+<arg>${first_name}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${f_name}</arg>
+<arg>${first_name}</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:48.354" level="INFO">Typing text 'Ionut' into text field 'id:FirstName'.</msg>
+<status status="PASS" starttime="20211229 15:04:48.354" endtime="20211229 15:04:48.544"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:48.353" endtime="20211229 15:04:48.545"/>
+</kw>
+<kw name="Last name input" library="register_page_resources">
+<arg>${last_name}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${l_name}</arg>
+<arg>${last_name}</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:48.546" level="INFO">Typing text 'Andrei' into text field 'id:LastName'.</msg>
+<status status="PASS" starttime="20211229 15:04:48.546" endtime="20211229 15:04:48.770"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:48.545" endtime="20211229 15:04:48.770"/>
+</kw>
+<kw name="Birth date-day" library="register_page_resources">
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${day_birth}</arg>
+<arg>5</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20211229 15:04:48.773" level="INFO">Selecting options from selection list 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[4]/div/select[1]' by index 5.</msg>
+<status status="PASS" starttime="20211229 15:04:48.772" endtime="20211229 15:04:48.991"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:48.771" endtime="20211229 15:04:48.992"/>
+</kw>
+<kw name="Birth date-month" library="register_page_resources">
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>${month_birth}</arg>
+<arg>4</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20211229 15:04:48.993" level="INFO">Selecting options from selection list 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[4]/div/select[2]' by index 4.</msg>
+<status status="PASS" starttime="20211229 15:04:48.993" endtime="20211229 15:04:49.177"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:48.992" endtime="20211229 15:04:49.178"/>
+</kw>
+<kw name="Birth date-year" library="register_page_resources">
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>${year_birth}</arg>
+<arg>1996</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<msg timestamp="20211229 15:04:49.180" level="INFO">Selecting options from selection list 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[4]/div/select[3]' by label 1996.</msg>
+<status status="PASS" starttime="20211229 15:04:49.179" endtime="20211229 15:04:49.280"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:49.178" endtime="20211229 15:04:49.280"/>
+</kw>
+<kw name="Email address input" library="register_page_resources">
+<arg>${email}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${email_box}</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:49.282" level="INFO">Typing text 'andreiionut@gmail.com' into text field 'id:Email'.</msg>
+<status status="PASS" starttime="20211229 15:04:49.282" endtime="20211229 15:04:49.400"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:49.281" endtime="20211229 15:04:49.400"/>
+</kw>
+<kw name="Company name input" library="register_page_resources">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${company_name}</arg>
+<arg>California SRL</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:49.402" level="INFO">Typing text 'California SRL' into text field 'id:Company'.</msg>
+<status status="PASS" starttime="20211229 15:04:49.401" endtime="20211229 15:04:49.524"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:49.400" endtime="20211229 15:04:49.524"/>
+</kw>
+<kw name="Newsletter box" library="register_page_resources">
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<arg>${news_checkbox}</arg>
+<doc>Selects checkbox identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:49.527" level="INFO">Selecting checkbox 'id:Newsletter'.</msg>
+<status status="PASS" starttime="20211229 15:04:49.526" endtime="20211229 15:04:49.556"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:49.524" endtime="20211229 15:04:49.557"/>
+</kw>
+<kw name="Password input" library="register_page_resources">
+<arg>${pwd}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password_box}</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:49.559" level="INFO">Typing text 'dasdqdqs' into text field 'id:Password'.</msg>
+<status status="PASS" starttime="20211229 15:04:49.558" endtime="20211229 15:04:49.682"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:49.557" endtime="20211229 15:04:49.683"/>
+</kw>
+<kw name="Password confirm input" library="register_page_resources">
+<arg>${pwd}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password_check}</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:49.685" level="INFO">Typing text 'dasdqdqs' into text field 'id:ConfirmPassword'.</msg>
+<status status="PASS" starttime="20211229 15:04:49.685" endtime="20211229 15:04:49.781"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:49.683" endtime="20211229 15:04:49.781"/>
+</kw>
+<kw name="Submit register infos" library="register_page_resources">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${register_btn}</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:49.782" level="INFO">Clicking element 'id:register-button'.</msg>
+<status status="PASS" starttime="20211229 15:04:49.782" endtime="20211229 15:04:52.220"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:49.781" endtime="20211229 15:04:52.220"/>
+</kw>
+<kw name="Register complete" library="register_page_resources">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${reg_complete}</arg>
+<doc>Waits until element ``locator`` appears on current page.</doc>
+<status status="PASS" starttime="20211229 15:04:52.222" endtime="20211229 15:04:52.252"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>${reg_complete}</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20211229 15:04:52.262" level="INFO">Current page contains element 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]'.</msg>
+<status status="PASS" starttime="20211229 15:04:52.253" endtime="20211229 15:04:52.262"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:52.221" endtime="20211229 15:04:52.263"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:48.292" endtime="20211229 15:04:52.263"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:47.595" endtime="20211229 15:04:52.263"/>
+</test>
+<kw name="Close browsers" library="register_page_resources" type="TEARDOWN">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20211229 15:04:52.265" endtime="20211229 15:04:54.375"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:52.264" endtime="20211229 15:04:54.376"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:43.008" endtime="20211229 15:04:54.376"/>
+</suite>
+<status status="PASS" starttime="20211229 15:04:42.972" endtime="20211229 15:04:54.380"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestCases">TestCases</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Register Page">TestCases.Register Page</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

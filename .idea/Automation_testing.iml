@@ -24,6 +24,10 @@
       <sourceFolder url="file://$MODULE_DIR$/performance_checking_course_exercices" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/unittest_html_course" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/unittest_html_course/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/demo_website_robotframework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ecommerce_robotframework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OSM_amenity" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ecommerce_demo_robotframework" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />

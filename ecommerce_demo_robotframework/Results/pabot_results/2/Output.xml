@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.0 on win32)" generated="20211229 15:04:42.948" rpa="false" schemaversion="2">
+<suite id="s1" name="TestCases" source="C:\Users\anton\PycharmProjects\Automation_testing\ecommerce_demo_robotframework\TestCases">
+<suite id="s1-s1" name="Invalid Login" source="C:\Users\anton\PycharmProjects\Automation_testing\ecommerce_demo_robotframework\TestCases\invalid_login.robot">
+<kw name="Open my browser" library="login_page_resources" type="SETUP">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<msg timestamp="20211229 15:04:47.699" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<status status="PASS" starttime="20211229 15:04:47.698" endtime="20211229 15:04:51.584"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211229 15:04:51.585" endtime="20211229 15:04:51.727"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:47.697" endtime="20211229 15:04:51.727"/>
+</kw>
+<test id="s1-s1-t1" name="Invalid data using">
+<kw name="Login form">
+<arg>andrei@gmail.com</arg>
+<arg>dasdadasd</arg>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://demo.nopcommerce.com/login?returnUrl=%2F</arg>
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<msg timestamp="20211229 15:04:51.730" level="INFO">Opening url 'https://demo.nopcommerce.com/login?returnUrl=%2F'</msg>
+<status status="PASS" starttime="20211229 15:04:51.730" endtime="20211229 15:04:53.062"/>
+</kw>
+<kw name="Email input" library="login_page_resources">
+<arg>${email_address}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${email_box}</arg>
+<arg>${email_address}</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:53.063" level="INFO">Typing text 'andrei@gmail.com' into text field 'xpath://*[@id="Email"]'.</msg>
+<status status="PASS" starttime="20211229 15:04:53.063" endtime="20211229 15:04:53.150"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:53.062" endtime="20211229 15:04:53.150"/>
+</kw>
+<kw name="Password input" library="login_page_resources">
+<arg>${pwd}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password_box}</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:53.151" level="INFO">Typing text 'dasdadasd' into text field 'xpath://*[@id="Password"]'.</msg>
+<status status="PASS" starttime="20211229 15:04:53.151" endtime="20211229 15:04:53.237"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:53.150" endtime="20211229 15:04:53.237"/>
+</kw>
+<kw name="Submit button" library="login_page_resources">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${login_btn}</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:53.238" level="INFO">Clicking element 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button'.</msg>
+<status status="PASS" starttime="20211229 15:04:53.237" endtime="20211229 15:04:54.453"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:53.237" endtime="20211229 15:04:54.453"/>
+</kw>
+<kw name="User not found alert" library="login_page_resources">
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211229 15:04:56.464" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211229 15:04:54.455" endtime="20211229 15:04:56.464"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>${no_customer_alert}</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20211229 15:04:56.477" level="INFO">Current page contains element 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[1]/ul/li'.</msg>
+<status status="PASS" starttime="20211229 15:04:56.464" endtime="20211229 15:04:56.477"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:54.453" endtime="20211229 15:04:56.477"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:51.729" endtime="20211229 15:04:56.478"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:51.727" endtime="20211229 15:04:56.478"/>
+</test>
+<test id="s1-s1-t2" name="Invalid data using">
+<kw name="Login form">
+<arg>antonio@gmail.com</arg>
+<arg>asdsadasdasd</arg>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://demo.nopcommerce.com/login?returnUrl=%2F</arg>
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<msg timestamp="20211229 15:04:56.483" level="INFO">Opening url 'https://demo.nopcommerce.com/login?returnUrl=%2F'</msg>
+<status status="PASS" starttime="20211229 15:04:56.482" endtime="20211229 15:04:56.852"/>
+</kw>
+<kw name="Email input" library="login_page_resources">
+<arg>${email_address}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${email_box}</arg>
+<arg>${email_address}</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:56.855" level="INFO">Typing text 'antonio@gmail.com' into text field 'xpath://*[@id="Email"]'.</msg>
+<status status="PASS" starttime="20211229 15:04:56.854" endtime="20211229 15:04:56.959"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:56.853" endtime="20211229 15:04:56.960"/>
+</kw>
+<kw name="Password input" library="login_page_resources">
+<arg>${pwd}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password_box}</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:56.961" level="INFO">Typing text 'asdsadasdasd' into text field 'xpath://*[@id="Password"]'.</msg>
+<status status="PASS" starttime="20211229 15:04:56.961" endtime="20211229 15:04:57.054"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:56.960" endtime="20211229 15:04:57.054"/>
+</kw>
+<kw name="Submit button" library="login_page_resources">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${login_btn}</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20211229 15:04:57.055" level="INFO">Clicking element 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button'.</msg>
+<status status="PASS" starttime="20211229 15:04:57.055" endtime="20211229 15:04:58.207"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:57.054" endtime="20211229 15:04:58.208"/>
+</kw>
+<kw name="User not found alert" library="login_page_resources">
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211229 15:05:00.224" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211229 15:04:58.209" endtime="20211229 15:05:00.224"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>${no_customer_alert}</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20211229 15:05:00.232" level="INFO">Current page contains element 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[1]/ul/li'.</msg>
+<status status="PASS" starttime="20211229 15:05:00.224" endtime="20211229 15:05:00.232"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:58.209" endtime="20211229 15:05:00.233"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:56.481" endtime="20211229 15:05:00.233"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:56.478" endtime="20211229 15:05:00.233"/>
+</test>
+<test id="s1-s1-t3" name="Invalid data using">
+<kw name="Login form">
+<arg>ionut@gmail.com</arg>
+<arg>asdasdasd</arg>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://demo.nopcommerce.com/login?returnUrl=%2F</arg>
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<msg timestamp="20211229 15:05:00.237" level="INFO">Opening url 'https://demo.nopcommerce.com/login?returnUrl=%2F'</msg>
+<status status="PASS" starttime="20211229 15:05:00.236" endtime="20211229 15:05:00.640"/>
+</kw>
+<kw name="Email input" library="login_page_resources">
+<arg>${email_address}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${email_box}</arg>
+<arg>${email_address}</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:05:00.642" level="INFO">Typing text 'ionut@gmail.com' into text field 'xpath://*[@id="Email"]'.</msg>
+<status status="PASS" starttime="20211229 15:05:00.641" endtime="20211229 15:05:00.727"/>
+</kw>
+<status status="PASS" starttime="20211229 15:05:00.640" endtime="20211229 15:05:00.728"/>
+</kw>
+<kw name="Password input" library="login_page_resources">
+<arg>${pwd}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password_box}</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<msg timestamp="20211229 15:05:00.730" level="INFO">Typing text 'asdasdasd' into text field 'xpath://*[@id="Password"]'.</msg>
+<status status="PASS" starttime="20211229 15:05:00.729" endtime="20211229 15:05:00.808"/>
+</kw>
+<status status="PASS" starttime="20211229 15:05:00.728" endtime="20211229 15:05:00.809"/>
+</kw>
+<kw name="Submit button" library="login_page_resources">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${login_btn}</arg>
+<doc>Click element identified by ``locator``.</doc>
+<msg timestamp="20211229 15:05:00.810" level="INFO">Clicking element 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button'.</msg>
+<status status="PASS" starttime="20211229 15:05:00.809" endtime="20211229 15:05:02.105"/>
+</kw>
+<status status="PASS" starttime="20211229 15:05:00.809" endtime="20211229 15:05:02.105"/>
+</kw>
+<kw name="User not found alert" library="login_page_resources">
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211229 15:05:04.112" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211229 15:05:02.106" endtime="20211229 15:05:04.112"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>${no_customer_alert}</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20211229 15:05:04.121" level="INFO">Current page contains element 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[1]/ul/li'.</msg>
+<status status="PASS" starttime="20211229 15:05:04.112" endtime="20211229 15:05:04.121"/>
+</kw>
+<status status="PASS" starttime="20211229 15:05:02.105" endtime="20211229 15:05:04.121"/>
+</kw>
+<status status="PASS" starttime="20211229 15:05:00.236" endtime="20211229 15:05:04.121"/>
+</kw>
+<status status="PASS" starttime="20211229 15:05:00.234" endtime="20211229 15:05:04.122"/>
+</test>
+<kw name="Close browsers" library="login_page_resources" type="TEARDOWN">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20211229 15:05:04.123" endtime="20211229 15:05:06.245"/>
+</kw>
+<status status="PASS" starttime="20211229 15:05:04.122" endtime="20211229 15:05:06.246"/>
+</kw>
+<status status="PASS" starttime="20211229 15:04:42.995" endtime="20211229 15:05:06.246"/>
+</suite>
+<status status="PASS" starttime="20211229 15:04:42.961" endtime="20211229 15:05:06.248"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="TestCases">TestCases</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="Invalid Login">TestCases.Invalid Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20211229 15:04:56.478" level="WARN">Multiple test cases with name 'Invalid data using' executed in test suite 'TestCases.Invalid Login'.</msg>
+<msg timestamp="20211229 15:05:00.234" level="WARN">Multiple test cases with name 'Invalid data using' executed in test suite 'TestCases.Invalid Login'.</msg>
+</errors>
+</robot>

@@ -1,0 +1,8 @@
+datasources:d3e5fbe16b9fb2cf03c9e213bf781aed8222d1cf
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:e895727dda5ff58fcd0995c6d7982cea85751f36
+--suite TestCases.Buy Checking
+--suite TestCases.Change Currency
+--suite TestCases.Invalid Login
+--suite TestCases.Register Page

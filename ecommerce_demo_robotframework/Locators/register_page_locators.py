@@ -1,0 +1,13 @@
+f_name = "id:FirstName"
+gender_male = "id:gender-male"
+l_name = "id:LastName"
+day_birth = 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[4]/div/select[1]'
+month_birth = 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[4]/div/select[2]'
+year_birth = 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[4]/div/select[3]'
+email_box = "id:Email"
+company_name = "id:Company"
+news_checkbox = "id:Newsletter"
+password_box = "id:Password"
+password_check = "id:ConfirmPassword"
+register_btn = "id:register-button"
+reg_complete = 'xpath:/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]'

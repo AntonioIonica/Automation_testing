@@ -11,7 +11,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 def call_osm_api(amenity):
     """
-
     :param amenity: giving different amenities from a city
     :return: by giving different amenities, the websites and other info changes and is writen in dublin_pub.json file
     """
@@ -39,27 +38,29 @@ data_output = call_osm_api('dentist')
 with open('dublin_pub.json', mode='w') as file_json:
     json.dump(data_output, file_json)
 
-# print(data_output)
-pub_coordinates = []
+websites = []
+coordinates = []
 for x in data_output['elements']:
     if 'website' in x['tags']:
         print(x['tags']['website'])
-        pub_coordinates.append(str(x['lat']) + ',' + str(x['lon']))
+        websites.append(x['tags']['website'])
+        coordinates.append(str(x['lat']) + ',' + str(x['lon']))
     else:
         print('Website not available')
-    # print(data_output['elements'][0]['tags']['website'])
-print(pub_coordinates)
+with open('websites.json', mode='w') as website_json:
+    json.dump(websites, website_json)
+print(coordinates)
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://www.openstreetmap.org/')
 driver.maximize_window()
 driver.implicitly_wait(3)
 
-driver.find_element(By.CSS_SELECTOR, '#sidebar #query').send_keys(pub_coordinates[0])
+driver.find_element(By.CSS_SELECTOR, '#sidebar #query').send_keys(coordinates[0])
 time.sleep(3)
 driver.find_element(By.CSS_SELECTOR,
                     '#sidebar > div.search_forms > form.search_form.px-1.py-2 > div > div.col > div > div.input-group-append > input').click()
 time.sleep(5)
 
-# TODO To save in a json only the pubs with a website
-# TODO migrate the current script in a class, modeled by unittest.TestCase
+
+# TODO migrate the current script in a class, modeled by unittest.TestCases
