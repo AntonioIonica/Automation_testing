@@ -1,5 +1,6 @@
 """
-
+Getting the coordinates from the amenity name
+and using the first coordinates into the map
 """
 
 import json

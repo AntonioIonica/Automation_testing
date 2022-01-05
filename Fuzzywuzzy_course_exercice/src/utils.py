@@ -26,5 +26,3 @@ class Utils:
                             expected=data[k]["expected"],
                             status=status))
         return res
-
-

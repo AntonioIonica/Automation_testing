@@ -1,5 +1,5 @@
 """
-
+OSM coordinates where you specific the exact amenity
 """
 import requests
 
