@@ -28,9 +28,13 @@
       <sourceFolder url="file://$MODULE_DIR$/ecommerce_robotframework" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OSM_amenity" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ecommerce_demo_robotframework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pytest_project" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
 </module>
