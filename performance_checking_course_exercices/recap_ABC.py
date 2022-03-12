@@ -10,6 +10,7 @@ class TestModel(ABC):
     @abstractmethod
     def env_setup(self):
         raise NotImplemented
+        raise NotImplemented
 
     @abstractmethod
     def execute_test(self):

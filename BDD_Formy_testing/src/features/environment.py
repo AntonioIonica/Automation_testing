@@ -20,7 +20,7 @@ def before_step(context, step):
     Setting a time sleep for educational purpose
     :param context:
     :param step:
-    :return:
+    :return: None
     """
     time.sleep(1)
 

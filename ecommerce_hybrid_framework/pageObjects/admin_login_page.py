@@ -22,6 +22,7 @@ class AdminLoginPage:
     def set_pwd(self, pwd_info):
         pwd_box = self.driver.find_element(*self.TEXTBOX_PWD)
         pwd_box.clear()
+        time.sleep(2)
         pwd_box.send_keys(pwd_info)
 
     def click_login(self):

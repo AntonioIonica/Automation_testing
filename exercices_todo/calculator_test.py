@@ -5,5 +5,6 @@ procent_15 = 0.15
 split_people = 7
 tip = total_bill * procent_12 + total_bill
 print(tip)
+print(tip)
 total = tip / float(split_people)
 print(round(total, 2))

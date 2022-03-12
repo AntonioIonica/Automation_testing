@@ -13,6 +13,7 @@ def step_impl(context):
     date_picker = context.driver.find_element(By.ID, 'datepicker')
     date_picker.clear()
     time.sleep(1.5)
+    time.sleep(1.5)
     date_picker.send_keys('07/10/1994')
     time.sleep(1.5)
 

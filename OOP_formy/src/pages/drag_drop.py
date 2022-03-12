@@ -17,3 +17,4 @@ class DragDrop(BasePage):
         action = ActionChains(self.driver)
         action.drag_and_drop(source1, source2).perform()
         time.sleep(1)
+        time.sleep(1)
