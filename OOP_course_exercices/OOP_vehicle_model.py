@@ -8,7 +8,7 @@ from abc import ABC, abstractmethod
 # abstractbaseclass
 
 class VehicleBlueprint(ABC):
-    @abstractmethod  # modifica comportamentul urmatoarei metode
+    @abstractmethod  # modifica comportamentul metode
     def _get_option(self, motor_value):
         raise NotImplemented
 

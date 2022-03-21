@@ -11,10 +11,6 @@ def before_all(context):
     context.driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-def before_scenario(context, scenario):
-    print('New testing scenario')
-
-
 def before_step(context, step):
     """
     Setting a time sleep for educational purpose
